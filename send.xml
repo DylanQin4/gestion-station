@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FileTransfer" default="copy" basedir=".">
+    <target name="copy">
+        <copy file="D:\Partage\Dev\github\S5\MrTahinaS5\S5 p16Win\S5 p16\station-personnel\gestion-station-ejb\build-file\ear\station-ejb.jar"
+              toDir="D:\Partage\Dev\github\S5\MrTahinaS5\S5 p16Win\S5 p16\station-personnel\ChatBot\lib" />
+    </target>
+
+</project>

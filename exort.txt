@@ -1,0 +1,5 @@
+CREATE OR REPLACE DIRECTORY dpump_dir AS 'D:\Partage\Dev\github\S5\MrTahinaS5\projetFIn\gestion-station';
+
+GRANT READ, WRITE ON DIRECTORY dpump_dir TO IMPOT;
+
+expdp impot/impot@orcl schemas=SCHEMA_NAME dumpfile=export.dmp logfile=export.log directory=dpump_dir
